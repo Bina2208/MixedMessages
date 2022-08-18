@@ -16,3 +16,6 @@ None
 ## Technologies
 + JavaScript
 + [Node.js](http://nodejs.org/en/) *(to execute it on the terminal)*
+
+## License
+MIT
