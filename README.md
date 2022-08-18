@@ -1,9 +1,11 @@
 # MixedMessages
+A very simple JavaScript-Program.
 
+## Description
 Every time a user runs the program, they get a new, randomized praise. 
 
 ## Features
-+ None
+None
 
 ## How to use
 1. Open your terminal.
