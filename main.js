@@ -5,13 +5,13 @@ let objMessages = {
 };
 
 let funcRandomNum = (maxNum) => {
-    return Math.floor(Math.random() * (maxNum+1));
+    return Math.floor(Math.random() * maxNum);
 }
 
 let funcRandomMessage = (objMessages) => {
-    let firstLength = objMessages.firstData.length - 1;
-    let secondLength = objMessages.secondData.length -1;
-    let thirdLength = objMessages.thirdData.length -1;
+    let firstLength = objMessages.firstData.length;
+    let secondLength = objMessages.secondData.length;
+    let thirdLength = objMessages.thirdData.length;
     console.log(`${objMessages.firstData[funcRandomNum(firstLength)]} ${objMessages.secondData[funcRandomNum(secondLength)]}. ${objMessages.thirdData[funcRandomNum(thirdLength)]}!`);
 }
 
